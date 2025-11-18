@@ -87,7 +87,9 @@ Sometimes things happens and the processes or the APIs fail. Here are the common
 
 
 # Run the tests
+
 To run the tests locally, you can try to the following command:
-```
+
+```bash
 python manage.py test --settings=OnToology.settings-tests
 ``` 
