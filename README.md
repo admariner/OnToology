@@ -2,9 +2,9 @@
 # ![alt text](https://raw.githubusercontent.com/OnToology/OnToology/main/media/icons/logoprop1_readme.png "OnToology")
 
 ![tests](../../actions/workflows/django.yml/badge.svg)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1317786.svg)](https://doi.org/10.5281/zenodo.1317786)
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.1317786.svg)](https://doi.org/10.5281/zenodo.1317786)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/7e81902ad6044e72bbc6af11a5201e0e)](https://www.codacy.com/gh/OnToology/OnToology/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OnToology/OnToology&amp;utm_campaign=Badge_Grade)
-[![Twitter](https://img.shields.io/twitter/follow/OnToology.svg?style=social&label=@OnToology)](https://twitter.com/OnToology) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![X](https://img.shields.io/twitter/follow/OnToology.svg?style=social&label=@OnToology)](https://x.com/OnToology) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 A system for collaborative ontology development process. Given a repository with an owl file, **OnToology** will survey it and produce diagrams, a complete documentation and validation based on common pitfalls. It also offers seamless publication of user ontologies with w3id using GitHub pages.
@@ -85,3 +85,9 @@ Sometimes things happens and the processes or the APIs fail. Here are the common
    1. *OnToology access*. <img height=300px src="media/faqs/OnToologyAccess-light.png"/>
    2. *OnToologyUser as a collaborator*. In this case, the last thing that will be shown in the user log will be `new htaccess:` (if the repo didn't has any ontology published before. If the repo has published an ontology before, you will see that OnToology tried several times to publish, but failed). <img height=300px src="media/faqs/Collaborator-light.png"/>
 
+
+# Run the tests
+To run the tests locally, you can try to the following command:
+```
+python manage.py test --settings=OnToology.settings-tests
+``` 

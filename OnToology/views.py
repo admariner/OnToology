@@ -53,13 +53,14 @@ from Integrator import previsual
 from OnToology import sqclient
 
 
-client_id_login = os.environ['client_id_login']  # 'e2ea731b481438fd1675'
-client_id_public = os.environ['client_id_public']  # '878434ff1065b7fa5b92'
-client_id_private = os.environ['client_id_private']  # 'dd002c8587d08edfaf5f'
+client_id_login = os.environ['client_id_login']
+client_id_public = os.environ['client_id_public']
+client_id_private = os.environ['client_id_private']
 
-client_secret_login = os.environ['client_secret_login']  # 'ba0f149934e3d78816cbd89d1f3c5109b82898ab'
-client_secret_public = os.environ['client_secret_public']  # 'c76144cbbbf5df080df0232928af9811d78792dd'
-client_secret_private = os.environ['client_secret_private']  # 'c5fbaa760362ba23f7c8d07c35021ac111ca5418'
+client_secret_login = os.environ['client_secret_login']
+client_secret_public = os.environ['client_secret_public']
+client_secret_private = os.environ['client_secret_private']
+
 
 settings.SECRET_KEY = os.environ['SECRET_KEY']
 client_id = None
